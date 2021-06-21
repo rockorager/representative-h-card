@@ -1,6 +1,6 @@
 {
   "name": "representative-h-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node.js implementation of the representative h-card parsing algorithm",
   "main": "index.js",
   "scripts": {
