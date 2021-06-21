@@ -1,0 +1,23 @@
+{
+  "name": "representative-h-card",
+  "version": "1.0.0",
+  "description": "A node.js implementation of the representative h-card parsing algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockorager/representative-h-card.git"
+  },
+  "keywords": [
+    "indieweb",
+    "h-card",
+    "microformats"
+  ],
+  "author": "Tim Culverhouse",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  }
+}
