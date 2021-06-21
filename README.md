@@ -6,7 +6,7 @@ A node implementation of the [representative h-card parsing algorithm](https://m
 
 Using npm:
 
-```
+```js
 npm install representative-h-card
 ```
 
@@ -14,10 +14,10 @@ npm install representative-h-card
 
 representative-h-card.js parses a microformats2 object and returns the representative h-card for that page. It accepts a valid microformats2 object (parsed from [microformat-node](https://www.npmjs.com/package/microformat-node), for example) and a URL, as a string. The URL should be the URL of the the mf2 object was parsed from.
 
-```
+```js
 const rhc = require('@rockorager/representative-h-card');
 
-const url = 'https://www.timculverhouse.com
+const url = 'https://www.timculverhouse.com';
 const mf2 = {
   items: [
     {
@@ -65,7 +65,7 @@ if(hcard) {
 
 If a representative h-card is found, the object is returned, otherwise `false` is returned.
 
-```
+```js
 {
   value: "Tim Culverhouse",
   type: ["h-card"],
