@@ -7,7 +7,7 @@ A node implementation of the [representative h-card parsing algorithm](https://m
 Using npm:
 
 ```
-npm install @rockorager/representative-h-card
+npm install representative-h-card
 ```
 
 ## Usage

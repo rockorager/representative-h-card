@@ -1,5 +1,5 @@
 var assert = require("assert");
-const hcard = require("../lib/representative-h-card");
+const hcard = require("../src/representative-h-card");
 
 describe("representative-h-card()", function () {
   it("should return false if no hcards are found", function () {
