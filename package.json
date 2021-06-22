@@ -10,12 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/rockorager/representative-h-card.git"
   },
+  "bugs": {
+    "url" : "https://github.com/rockorager/representative-h-card/issues"
+  },
   "keywords": [
     "indieweb",
     "h-card",
     "microformats"
   ],
-  "author": "Tim Culverhouse",
+  "author": {
+    "name": "Tim Culverhouse",
+    "email": "tim@timculverhouse.com",
+    "url": "https://www.timculverhouse.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "^9.0.1"
