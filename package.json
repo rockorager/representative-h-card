@@ -2,7 +2,7 @@
   "name": "representative-h-card",
   "version": "1.0.1",
   "description": "A node.js implementation of the representative h-card parsing algorithm",
-  "main": "index.js",
+  "main": "src/representative-h-card",
   "scripts": {
     "test": "mocha"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/rockorager/representative-h-card.git"
   },
   "bugs": {
-    "url" : "https://github.com/rockorager/representative-h-card/issues"
+    "url": "https://github.com/rockorager/representative-h-card/issues"
   },
   "keywords": [
     "indieweb",
